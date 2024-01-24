@@ -51,12 +51,10 @@ int main() {
 
     do {
         printf("FAÇA UMA ESCOLHA NO MENU\n\n");
-        printf("\t1 - Adicionar todas as tarefa\n\t2 - Listar toads as tarefa\n\t3 - Remover tarefa\n\t4 - Enserrar tarefa\n");
+        printf("\t1 - Adicionar todas as tarefa\n\t2 - Listar toads as tarefa\n\t3 - Remover tarefa\n\t4 - Enserrar programa\n");
         scanf("%d", &opcao);
 
         switch (opcao) {
-            case 0:
-                exit(0);
             case 1:
                 adicionar_tarefa(listaTarefas, num_tarefas);
                 num_tarefas++;
