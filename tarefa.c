@@ -51,7 +51,7 @@ int main() {
 
     do {
         printf("FAÇA UMA ESCOLHA NO MENU\n\n");
-        printf("\t1 - Adicionar todas as tarefa\n\t2 - Listar toads as tarefa\n\t3 - Remover tarefa\n\t4 - Enserrar programa\n");
+        printf("\t1 - Adicionar uma nova tarefa\n\t2 - Listar todas as tarefa\n\t3 - Remover tarefa\n\t4 - Enserrar programa\n");
         scanf("%d", &opcao);
 
         switch (opcao) {
